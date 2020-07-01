@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.name{
+    color: rgb(226, 65, 119);
+}
+h2{
+    font-size: 30px;
+    font-weight: 500;
+}
+h1{
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+section{
+    height: 500px;
+}
+
+.hire-me{
+    text-decoration: none;
+    background-color: rgb(226, 65, 119);
+    color: white;
+    padding: 10px 25px;
+    border-radius: 5px;
+    font-weight: 700;
+    background-image: linear-gradient(45deg, rgb(245, 121, 162), rgb(226, 65, 119));
+}
+
+.user-details{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.user-details img{
+    width: 100%;
+    margin-top: 5px;
+}
+
+.back-one{
+    background-image: url("images/header-bg.png");
+    background-repeat: no-repeat;
+
+}
+
+#margin-dev{
+    padding-top: 500px;
+}
