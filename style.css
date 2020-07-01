@@ -7,17 +7,14 @@ body{
     color: rgb(226, 65, 119);
 }
 h2{
-    font-size: 30px;
+    font-size: 35px;
     font-weight: 500;
 }
 h1{
-    font-size: 40px;
+    font-size: 45px;
     font-weight: bolder;
 }
 
-section{
-    height: 500px;
-}
 
 .hire-me{
     text-decoration: none;
@@ -29,23 +26,99 @@ section{
     background-image: linear-gradient(45deg, rgb(245, 121, 162), rgb(226, 65, 119));
 }
 
+
+
 .user-details{
     width: 40%;
     float: left;
-    margin-left: 5%;
+    margin-left: 8%;
     padding-left: 2%;
 }
 .user-details img{
+    width: 80%;
+    margin-top: 70px;
+}
+
+.user-details-work{
+    margin-left: 4%;
+    padding-left: 2%;
+    border: 0 solid;
+    float: left;
+    width: 25%;
+}
+
+.user-details-work img{
     width: 100%;
-    margin-top: 5px;
+    height: auto;
 }
 
 .back-one{
     background-image: url("images/header-bg.png");
     background-repeat: no-repeat;
-
+    background-size: 100%;
 }
 
-#margin-dev{
-    padding-top: 500px;
+.margin-dev{
+    padding-top: 100px;
+}
+
+.back-two{
+    background-image: url("images/biography-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+section{
+    height: 750px;
+}
+
+#latest-work{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.back-thr{
+    height: 450px;
+    background-image: url("images/latest-work-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#h4tag{
+    color: gray;
+}
+
+.user-details-four{
+    text-align: center;
+}
+
+.back-four{
+    height: 600px;
+    background-image: url("images/footer-bg.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.lorem{
+    margin-left: 30%;
+    text-align: center;
+    border: 0 solid;
+    float: left;
+    width: 40%;
+}
+
+#h4lorem{
+    color: gray;
+}
+
+.twin{
+    background-color: rgb(226, 65, 119);
+    color: white;
+    padding: 10px 25px;
+    border-radius: 5px;
+    background-image: linear-gradient(45deg, rgb(248, 148, 181), rgb(226, 65, 119));
+}
+
+footer p{
+    text-align: center;
 }
